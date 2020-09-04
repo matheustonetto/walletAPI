@@ -55,7 +55,6 @@ public class UserController {
 		dto.setId(u.getId());
 		dto.setEmail(u.getEmail());
 		dto.setName(u.getName());
-		dto.setPassword(u.getPassword());
 		
 		return dto;
 	}
